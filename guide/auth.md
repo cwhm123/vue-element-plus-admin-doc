@@ -222,6 +222,6 @@ next(nextData)
 
 ## 静态路由（无权限）
 
-有时候，我们并不需要动态路由，那么可以在 `src/config/app.ts` 中把 `dynamicRouter` 设置为 `false`，这样我们取得都是项目中的静态路由表了。
+有时候，我们并不需要动态路由，那么可以在 `src/store/modules/app.ts` 中把 `dynamicRouter` 设置为 `false`，这样我们取得都是项目中的静态路由表了。
 
 内部逻辑已经处理了静态路由的部分，所以可以无需关心其他。
